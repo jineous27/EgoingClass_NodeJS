@@ -17,3 +17,11 @@ This file is for taking Egoing NodeJS 2.0 lesson -! Practice & Get over it! You 
 
 - 함수의 역할? 어떠한 Logic (로직=기능)에 이름을 붙이는 거와 같다. 해당 기능을 반복해서 사용-!
  * 가독성이 높아지고, 1억개의 같은 기능이 한번에 폭박적으로 바뀌게되는 편리함-!
+
+
+- Call back 개념은 아주 중요하면서 어렵다. 한번에 절대 이해가 되지 않기 때문에 낙심 하지 말고, 반복해서 나를 노출시키다보면, Call back 개념에 자연스럽게 적응이 될 것이다. 
+
+- Node JS 에서 우리가 만든 Application 을 좀 더 강인하게 생존하기 위한 Package Manager 도구가 있다. ==> PM2 (자동 저장/업데이트 도구!)
+** 
+** 실행 방법: pm2 start main.js --watch (마지막에 --watch는 꼭! 꼭! 넣어줘야 한다.)
+** 로그 확인법: pm2 log (문제점을 화면에 바로 보여줌)
