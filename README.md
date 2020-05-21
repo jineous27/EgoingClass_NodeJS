@@ -25,3 +25,5 @@ This file is for taking Egoing NodeJS 2.0 lesson -! Practice & Get over it! You 
 ** 
 ** 실행 방법: pm2 start main.js --watch (마지막에 --watch는 꼭! 꼭! 넣어줘야 한다.)
 ** 로그 확인법: pm2 log (문제점을 화면에 바로 보여줌)
+
+- 서버에 데이터를 수정, 삭제, 생성, 삭제를 할 때에는 반드시 메소드를 포스트 방식으로 해야 한다-!
