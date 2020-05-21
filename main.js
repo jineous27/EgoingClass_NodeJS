@@ -62,7 +62,7 @@ var app = http.createServer(function(request,response){
         var list = templateList(filelist);
         var template = templateHTML(title, list, `
           <form action="http://localhost:3000/create_process" method="post">
-            <p><input type="text" name="title" placeholder="title"></p>
+            <p><input type="text" name="title" placeholder="제목"></p>
             <p>
               <textarea name="description" placeholder="description"></textarea>
             </p>
@@ -85,7 +85,7 @@ var app = http.createServer(function(request,response){
           var description = post.description
           fs.writeFile(`data/${title}`, description, 'utf8', function(err){
             response.writeHead(302, {Location: `/?id=${title}`});
-            response.end('');
+            response.end();
           })
       });
 
