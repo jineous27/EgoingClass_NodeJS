@@ -30,3 +30,7 @@ This file is for taking Egoing NodeJS 2.0 lesson -! Practice & Get over it! You 
 
 -Update 눌렀을 때 수정하는 건 - GET 방식
 - Delete 버튼을 활성화 ==> 절대 GET 방식으로 하면 안된다. (POST 방식) link 가 아니라 Form 형태로! 
+
+* 자바스크립트의 '객체' Object 에 대해서 알아 봅시다-! (구체적으로 기능 중심으로 생각하면 됩니다.)
+Object (개체) vs Array (배열) => 정보들을 정리정돈 하는 다른 수납창고로 볼 수 있다. 
+- 객체는 순서가 없는 정보를 저장하기에 최적의 수납상자다! 숫자로 식별자로 주는 것이 아니라 이름으로 식별자 줌.
