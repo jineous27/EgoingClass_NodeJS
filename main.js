@@ -139,14 +139,26 @@ var app = http.createServer(function(request,response){
               response.writeHead(302, {Location: `/?id=${title}`});
               response.end();
             })
-          })
-          /*
-          
-          */
+          });
       });
+    } else if (pathname === '/delete_process'){
+      var body ='';
+      request.on('data', function (data){
+          body = body + data;
+      });
+      request.on('end', function(){
+          var post = qs.parse(body);
+          var id = post.id;
+          fs.unlink(`data/${id}`, function(error){
+            response.writeHead(302, {Location: `/`});
+            response.end();
+          })
+        });
+             
+    } else {
+      response.writeHead(404);
+      response.end('Not found');
     }
- 
- 
- 
 });
+
 app.listen(3000);
