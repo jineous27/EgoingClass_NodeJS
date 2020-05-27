@@ -1,0 +1,25 @@
+{
+  "name": "egoingclass_nodejs",
+  "version": "1.0.0",
+  "description": "EgoingClass_NodeJS This file is for taking Egoing NodeJS 2.0 lesson -! Practice & Get over it! You can do it!",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jineous27/EgoingClass_NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jineous27/EgoingClass_NodeJS/issues"
+  },
+  "homepage": "https://github.com/jineous27/EgoingClass_NodeJS#readme",
+  "dependencies": {
+    "sanitize-html": "^1.24.0"
+  }
+}
