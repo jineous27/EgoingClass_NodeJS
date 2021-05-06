@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/jineous27/EgoingClass_NodeJS#readme",
   "dependencies": {
-    "sanitize-html": "^1.24.0"
+    "sanitize-html": "^2.3.2"
   }
 }
